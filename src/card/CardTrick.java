@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package card;
-import java.util.Scanner;
+
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and then asks the user to pick a card and searches the array of cards
@@ -39,6 +39,6 @@ public class CardTrick {
             System.out.println("Congratulations! Your lucky card is in the magic hand!");
         } else {
             System.out.println("Oops! Your lucky card is not in the magic hand.");
-        }
-    }
+        }
+}
 }
